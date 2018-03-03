@@ -14,8 +14,10 @@ Firefox: https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/
 
 The other option is enabling ProxyPass in Apache so that a subdirectory is forwarded to the daemon.
 Example config:
+```bash
     ProxyRequests Off
     ProxyPreserveHost On
     ProxyPass        "/d/" "http://localhost:47867/"
     ProxyPassReverse "/d/" "http://localhost:47867/"
+```
   
