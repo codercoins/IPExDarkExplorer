@@ -11,3 +11,11 @@ Block explorer for Egano CryptoNote based cryptocurrency.
 3) Enable CORS in your browser. Scripts must be able to load data from different port. Here is more information:
 Chrome: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
 Firefox: https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/
+
+The other option is enabling ProxyPass in Apache so that a subdirectory is forwarded to the daemon.
+Example config:
+    ProxyRequests Off
+    ProxyPreserveHost On
+    ProxyPass        "/d/" "http://localhost:47867/"
+    ProxyPassReverse "/d/" "http://localhost:47867/"
+  
