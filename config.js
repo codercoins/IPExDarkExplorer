@@ -1,4 +1,4 @@
-var api = 'http://seed6.egano.net:47867';
+var api = 'http://seed6.egano.net/d/';
 var blockTargetInterval = 60;
 var coinUnits = 1000000000000;
 var symbol = "uEGN";//script changes that to µEGN
