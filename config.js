@@ -1,13 +1,13 @@
-var api = 'http://seed6.egano.net/d/';
+var api = '159.203.1.104:17236';
 var blockTargetInterval = 60;
 var coinUnits = 1000000000000;
-var symbol = "uEGN";//script changes that to µEGN
+var symbol = "IPExDark";//script changes that to ÂµEGN
 var refreshDelay = 10000;
 // pools stats by MainCoins
 var networkStat = {
-    "egn": [
-		["pool1.egano.net", "http://pool1.egano.net:9999"], //change to some existing pool 
-		["pool2.egano.net", "http://pool2.egano.net:9999"]
+    "IPExD": [
+		["159.203.1.104:17236"], //change to some existing pool 
+		["159.203.1.104:17236"]
 
 		
     ]
