@@ -1,4 +1,4 @@
-var api = '159.203.1.104:18236';
+var api = '127.0.0.1:18236';
 var blockTargetInterval = 60;
 var coinUnits = 1000000000000;
 var symbol = "IPExDark";//script changes that to µEGN
